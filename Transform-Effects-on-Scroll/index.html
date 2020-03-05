@@ -10,10 +10,20 @@
 
 <body>
   <section>
+    <div class="text">
+      <p>Hello world!</p>
+    </div>
     <span class="curve">
       <img src="curve.png" alt="">
     </span>
   </section>
+  <script type="text/javascript">
+    let scroll = document.querySelector('.curve');
+    window.addEventListener('scroll', function () {
+      let value = 1 + window.scrollY / -500;
+      scroll.style.transform = `scaleY(${value})`;
+    })
+  </script>
 
 </body>
 
