@@ -19,3 +19,12 @@ body {
   position: relative;
   padding: 30px;
 }
+
+.list h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+  border-bottom: 4px solid #fff;
+  display: inline-block;
+  padding: 10px 0;
+}
