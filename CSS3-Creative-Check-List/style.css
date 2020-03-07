@@ -4,3 +4,18 @@
   font-family: consolas;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #001925;
+}
+
+.list {
+  background: #042b3e;
+  border-top: 50px solid #03a9f4;
+  position: relative;
+  padding: 30px;
+}
