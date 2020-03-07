@@ -17,7 +17,7 @@ body {
   background: #042b3e;
   border-top: 50px solid #03a9f4;
   position: relative;
-  padding: 30px;
+  padding: 30px 75px 10px 30px;
 }
 
 .list h2 {
@@ -27,4 +27,13 @@ body {
   border-bottom: 4px solid #fff;
   display: inline-block;
   padding: 10px 0;
+}
+
+.list label {
+  position: relative;
+  display: block;
+  margin: 40px 0;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
 }
