@@ -51,3 +51,12 @@ body {
   top: 2px;
   display: inline-block;
 }
+
+.list input[type="checkbox"]:checked ~ i {
+  top: 1px;
+  border-top: none;
+  border-right: none;
+  height: 15px;
+  width: 25px;
+  transform: rotate(-45deg);
+}
