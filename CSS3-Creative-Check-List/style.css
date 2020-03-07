@@ -60,3 +60,31 @@ body {
   width: 25px;
   transform: rotate(-45deg);
 }
+
+.list span {
+  position: relative;
+  left: 40px;
+  transition: 0.5s;
+}
+
+.list span::before {
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #fff;
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5;
+}
+
+.list input[type="checkbox"]:checked ~ span:before {
+  transform: translateY(-50%) scaleX(1);
+  transform-origin: right;
+  transition: transform 0.5;
+}
+.list input[type="checkbox"]:checked ~ span {
+  color: #154e6b;
+}
