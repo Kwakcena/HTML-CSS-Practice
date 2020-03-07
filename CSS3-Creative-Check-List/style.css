@@ -37,3 +37,17 @@ body {
   font-size: 24px;
   cursor: pointer;
 }
+
+.list input[type="checkbox"] {
+  -webkit-appearance: none;
+  /* 체크 시 리스트의 체크박스를 안보이게 함 */
+}
+
+.list i {
+  position: absolute;
+  border: 2px solid #fff;
+  width: 25px;
+  height: 25px;
+  top: 2px;
+  display: inline-block;
+}
