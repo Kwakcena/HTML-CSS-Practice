@@ -9,9 +9,16 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #ccc;
+  background: #f71772;
   width: 300px;
   height: 300px;
   display: table;
-  color: #262626;
+  color: #ffffff;
+}
+
+.content {
+  padding: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
