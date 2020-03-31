@@ -7,19 +7,35 @@
   <title>Document</title>
   <style>
     div {
-      border: 5px solid red;
-      /* width: 600px; */
-      max-width: 600px;
-      margin: 0 auto;
+      background: #eaeaed;
+      color: #666;
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+      margin: 0 14px;
+      text-align: center;
+    }
+
+    .border-rounded {
+      /* 4 꼭지점에 대해 Radius 지정 */
+      border-radius: 5px;
+    }
+
+    .border-circle {
+      border-radius: 50%;
+    }
+
+    .border-football {
+      border-radius: 15px 75px;
     }
   </style>
 </head>
 
 <body>
-  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  <div class="border-rounded">5px</div>
+  <div class="border-circle">50%</div>
+  <div class="border-football">15px 75px</div>
 </body>
 
 </html>
