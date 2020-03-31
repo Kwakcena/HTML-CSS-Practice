@@ -6,36 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    div {
-      background: #eaeaed;
-      color: #666;
+    .wrapper {
+      font-size: 0;
+    }
+
+    .inline-block {
       display: inline-block;
-      width: 90px;
-      height: 90px;
-      line-height: 90px;
-      margin: 0 14px;
-      text-align: center;
+      border: 3px solid #73AD21;
+      vertical-align: middle;
+      font-size: 16px;
     }
 
-    .border-rounded {
-      /* 4 꼭지점에 대해 Radius 지정 */
-      border-radius: 5px;
+    .box1 {
+      width: 300px;
+      height: 70px;
     }
 
-    .border-circle {
-      border-radius: 50%;
-    }
-
-    .border-football {
-      border-radius: 15px 75px;
+    .box2 {
+      width: 300px;
+      height: 150px;
     }
   </style>
 </head>
 
 <body>
-  <div class="border-rounded">5px</div>
-  <div class="border-circle">50%</div>
-  <div class="border-football">15px 75px</div>
+  <div class="inline-block box1">inline-block height 70px</div>
+  <div class="inline-block box2">inline-block height 150px</div>
+
+  <div class="wrapper">
+    <div class="inline-block box1">inline-block height 70px</div>
+    <div class="inline-block box2">inline-block height 150px</div>
+  </div>
 </body>
 
 </html>
