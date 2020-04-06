@@ -87,3 +87,14 @@
   background-position: center;
   background-size: 150%; /* 동그라미 안에 머리만 나오게 하기 위해서 %로 작성*/
 }
+
+/* friend-list */
+.friend-item {
+  align-items: center;
+}
+.user-name {
+  /* 아래의 세 줄은 content보다 화면이 작아졌을 때 말줄임표가 나오도록 하는 방법이다. */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
