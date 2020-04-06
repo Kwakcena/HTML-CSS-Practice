@@ -32,3 +32,11 @@
 .menu-link:hover {
   color: white;
 }
+
+/* search */
+.search-form input[type="search"] {
+  margin-right: 10px;
+  border: 0;
+  border-radius: 0.3em;
+  font-size: 1rem;
+}
