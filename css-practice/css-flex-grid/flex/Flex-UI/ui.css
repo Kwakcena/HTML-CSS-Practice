@@ -34,7 +34,15 @@
 }
 
 /* search */
+
+.search-form {
+  display: flex;
+  height: 40px;
+}
+
 .search-form input[type="search"] {
+  /* display flex가 적용된 search-form의 자식인 input은 flex-item이 되고 이는 기본적으로 align-items가 stretch이기 때문에 세로로 컨테이너의 크기만큼 늘어나게 된다. */
+  flex: 1;
   margin-right: 10px;
   border: 0;
   border-radius: 0.3em;
