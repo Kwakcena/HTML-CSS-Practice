@@ -4,13 +4,15 @@
 }
 
 .menu-item {
-  width: 25%;
+  /* width: 25%; */
+  flex-grow: 1;
   background: gold;
   transition: 0.5s;
 }
 
 .menu-item:hover {
-  width: 35%;
+  /* width: 35%; */
+  flex-grow: 1.5;
   background: crimson;
 }
 
