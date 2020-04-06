@@ -56,3 +56,12 @@
   font-size: 1rem;
   background: gold;
 }
+
+/* bullet list */
+.info-list-item {
+  margin: 0.5em 0;
+}
+.info-list-item:before {
+  /* copychar.cc 에서 가져옴. */
+  content: "";
+}
