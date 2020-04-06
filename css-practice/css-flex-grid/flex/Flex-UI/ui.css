@@ -56,3 +56,15 @@
   font-size: 1rem;
   background: gold;
 }
+
+/* bullet list */
+.info-list-item {
+  /* item 안에 블릿과 텍스트가 들어갔으므로 여기에 flex를 적용한다. */
+  display: flex;
+  margin: 0.5em 0;
+}
+.info-list-item:before {
+  /* copychar.cc 에서 가져옴. */
+  content: "";
+  margin-right: 0.5em;
+}
