@@ -121,6 +121,8 @@
 
 /* card list */
 .card-item {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2rem;
 }
 
@@ -138,6 +140,7 @@
 }
 
 .card-desc {
+  flex: 1 1 auto;
   padding: 1em;
   background: white;
 }
@@ -152,5 +155,11 @@
   .card-item {
     width: 50%;
     padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-item {
+    width: 33.33333%;
   }
 }
