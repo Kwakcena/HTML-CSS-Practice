@@ -68,3 +68,22 @@
   content: "";
   margin-right: 0.5em;
 }
+
+/* message */
+.user-item {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.user-photo {
+  flex-shrink: 0;
+  margin-right: 0.5em;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: gold;
+  background-repeat: no-repeat; /* 이미지 반복 없음. */
+  background-position: center;
+  background-size: 150%; /* 동그라미 안에 머리만 나오게 하기 위해서 %로 작성*/
+}
