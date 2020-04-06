@@ -1,9 +1,16 @@
 /* menu */
 .menu {
+  display: flex;
+}
+
+.menu-item {
+  width: 25%;
   background: gold;
+  transition: 0.5s;
 }
 
 .menu-item:hover {
+  width: 35%;
   background: crimson;
 }
 
