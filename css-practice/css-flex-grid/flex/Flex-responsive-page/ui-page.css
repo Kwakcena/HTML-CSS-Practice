@@ -1,0 +1,12 @@
+/* 페이지 골격을 만드는 css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 1rem;
+}
+/* .header에 justify-content: space-between 대신 사용 가능 */
+/* .search-form {
+  margin-left: auto;
+} */
