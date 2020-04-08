@@ -130,7 +130,7 @@
 }
 
 .card-image {
-  /* height: 0; */
+  height: 0;
   padding-bottom: 60%; /* 가로가 100 이면 세로가 60이 될 수 있도록 함. */
   background-color: lightgray;
   background-repeat: no-repeat;
