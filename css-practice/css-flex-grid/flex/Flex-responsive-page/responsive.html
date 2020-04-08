@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Responsive</title>
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="ui-page.css">
+</head>
+<!-- Flex 컨테이너가 될 페이지 -->
+<div class="page">
+  <!-- header -->
+  <header class="header">
+    <h1 class="website-title">1분코딩</h1>
+    <form class="search-form">
+      <input type="search">
+      <input type="submit" value="찾기">
+    </form>
+  </header>
+  <!-- menu -->
+  <ul class="menu">
+    <li class="menu-item">
+      <a href="#" class="menu-link">Home</a>
+    </li>
+    <li class="menu-item">
+      <a href="#" class="menu-link">About</a>
+    </li>
+    <li class="menu-item">
+      <a href="#" class="menu-link">Product</a>
+    </li>
+    <li class="menu-item">
+      <a href="#" class="menu-link">Contact</a>
+    </li>
+  </ul>
+  <!-- primary -->
+  <section class="primary">
+    <ul class="card-list">
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <!-- 이미지의 형태에 상관 없이 컨트롤 하기 쉬우려면 img 태그보단 figure의 인라인 css로 background image를 넣는게 좋다. 또한 이미지는 일반적으로 DB에서 불러오는 것이기 때문에 인라인을 쓰는게 합리적이다.-->
+
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam impedit perspiciatis enim optio deleniti
+          nesciunt.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam impedit perspiciatis enim optio deleniti
+          nesciunt.
+        </div>
+      </li>
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum
+        </div>
+      </li>
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam impedit perspiciatis enim optio deleniti
+          nesciunt.
+        </div>
+      </li>
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum
+        </div>
+      </li>
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+        </div>
+      </li>
+      <li class="card-item">
+        <figure class="card-image" style="background-image: url(images/ilbuni.png);">
+          <img src="images/ilbuni.png" alt="일분이">
+        </figure>
+        <div class="card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam impedit perspiciatis enim optio deleniti
+          nesciunt.
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- secondary-a -->
+  <aside class="secondary secondary-a">
+    <ul class="info-list">
+      <li class="info-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officia sequi vitae
+        nesciunt est perspiciatis, soluta doloremque omnis aliquam ipsum.</li>
+      <li class="info-list-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quam aspernatur itaque
+        eveniet eaque reprehenderit suscipit dolore, voluptates eos amet.</li>
+      <li class="info-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum architecto, et sint
+        alias
+        eaque in deleniti ipsam excepturi placeat autem.</li>
+    </ul>
+
+    <ul class="user-list friend-list">
+      <li class="user-item friend-item">
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <p class="user-name">
+          일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이
+        </p>
+      </li>
+      <li class="user-item friend-item">
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <p class="user-name">
+          일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이
+        </p>
+      </li>
+      <li class="user-item friend-item">
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <p class="user-name">
+          일분이 일분이 일분이 일분이 일분이 일분이 일분이 일분이
+        </p>
+      </li>
+    </ul>
+  </aside>
+  <!-- secondary-b -->
+  <ascide class="secondary secondary-b">
+    <ul class="user-list message-list">
+      <li class="user-item message-item">
+        <!-- figure 태그를 쓰는 이유는 다양한 크기의 사진을 css로 쉽게 처리하기 위함.
+        img 태그를 쓰면 이를 조절하는게 힘듬. -->
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <p class="message-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolorum voluptatibus quae quo tenetur, modi
+          voluptatum minus, atque ad cumque a possimus delectus ratione quisquam. Dolore laborum rerum iure expedita?
+        </p>
+      </li>
+      <li class="user-item message-item">
+        <!-- figure 태그를 쓰는 이유는 다양한 크기의 사진을 css로 쉽게 처리하기 위함.
+        img 태그를 쓰면 이를 조절하는게 힘듬. -->
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <!-- 현재는 user-photo 자체가 크기를 갖고 있지 않기 때문에 사진이 나오지 않음. -->
+        <p class="message-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolorum voluptatibus quae quo tenetur, modi
+          voluptatum minus, atque ad cumque a possimus delectus ratione quisquam. Dolore laborum rerum iure expedita?
+        </p>
+      </li>
+      <li class="user-item message-item">
+        <!-- figure 태그를 쓰는 이유는 다양한 크기의 사진을 css로 쉽게 처리하기 위함.
+        img 태그를 쓰면 이를 조절하는게 힘듬. -->
+        <figure class="user-photo" style="background-image: url(images/ilbuni.png);"></figure>
+        <p class="message-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolorum voluptatibus quae quo tenetur, modi
+          voluptatum minus, atque ad cumque a possimus delectus ratione quisquam. Dolore laborum rerum iure expedita?
+        </p>
+      </li>
+    </ul>
+  </ascide>
+  <!-- footer -->
+  <footer class="footer">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, exercitationem!
+  </footer>
+</div>
+
+<body>
+
+</body>
+
+</html>
