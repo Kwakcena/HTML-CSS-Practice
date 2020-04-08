@@ -10,3 +10,10 @@
 /* .search-form {
   margin-left: auto;
 } */
+.search-form {
+  width: 300px;
+  max-width: 60%;
+}
+.primary {
+  padding: 1rem;
+}
