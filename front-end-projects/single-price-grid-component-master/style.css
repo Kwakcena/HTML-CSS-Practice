@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(204, 43%, 93%);
+}
+.container {
+  width: 520px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.community {
+  background: white;
+}
+
+.price {
+  background: hsl(179, 62%, 43%);
+  width: 50%;
+}
+
+.about {
+  background: hsl(179, 70%, 45%);
+  width: 50%;
+}
