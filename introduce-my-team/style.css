@@ -1,5 +1,7 @@
 body,
-ul {
+ul,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -21,5 +23,41 @@ body {
 }
 
 .team {
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.team-item {
+  flex-basis: 100px;
+  margin: 0 10px;
+}
+
+.team-item img {
+  width: 100%;
+}
+
+.profile {
+  background-color: #222;
+  position: relative;
+}
+
+.profile-contents {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+}
+
+.profile-contents h2 {
+  font-size: 20px;
+}
+
+.profile-contents h2 span {
+  display: block;
+  font-size: 12px;
+}
+
+.profile-contents p {
+  display: none;
 }
